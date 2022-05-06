@@ -12,7 +12,8 @@ const Footer = () => {
           className='d-flex align-items-center'
           href='https://elrond.com/'
         >
-          Made with <HeartIcon className='mx-1' /> by Elrond Network.
+          {/* Made with <HeartIcon className='mx-1' /> by Elrond Network. */}
+          Rather Labs
         </a>
       </div>
     </footer>
