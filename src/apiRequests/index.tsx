@@ -38,5 +38,6 @@ const fetchTransactions = (url: string) =>
     }
   };
 
+// export const getTransactions = fetchTransactions('/transfers?from=0&size=10');
 export const getTransactions = fetchTransactions('/transactions');
 export const getTransactionsCount = fetchTransactions('/transactions/count');

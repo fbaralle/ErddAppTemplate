@@ -1188,19 +1188,35 @@
     tweetnacl "1.0.3"
     uuid "8.3.2"
 
-"@elrondnetwork/erdjs@^10.2.2":
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/@elrondnetwork/erdjs/-/erdjs-10.2.2.tgz#0c14f67329d87f29ce8709d85bdbe13d14407326"
-  integrity sha512-ojn7wNI/Jfd77dDnFLK+BKVZDgAy8r6/DTiypWN1sZcG420LU/M+kn63CVVINAjXJthyNgk3M8jtyEQvt8rwEg==
+"@elrondnetwork/erdjs@9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@elrondnetwork/erdjs/-/erdjs-9.1.0.tgz#142a828d59e0ea20d1790e7d54ae5077c0a2dfab"
+  integrity sha512-KFW0x7j4kYMWdydtwy0p6FTsh3rdCSbGekC5NVDLWLgvTZYbQdbaDSwQUGD7lt8OFUxWJDiYaWU9jUS7a+UAEg==
   dependencies:
-    "@elrondnetwork/transaction-decoder" "0.1.0"
+    "@babel/runtime" "7.11.2"
+    "@elrondnetwork/bls-wasm" "0.3.3"
+    "@elrondnetwork/hw-app-elrond" "0.3.2"
+    "@ledgerhq/hw-transport-u2f" "^5.36.0-deprecated"
+    "@ledgerhq/hw-transport-webhid" "^6.11.2"
+    "@ledgerhq/hw-transport-webusb" "6.11.2"
+    "@walletconnect/client" "1.6.5"
+    abort-controller "3.0.0"
+    axios "0.24.0"
     bech32 "1.1.4"
     bignumber.js "9.0.1"
+    bip39 "3.0.2"
     blake2b "2.1.3"
     buffer "6.0.3"
+    ed25519-hd-key "1.1.2"
+    json-bigint "1.0.0"
     json-duplicate-key-handle "1.0.0"
-    keccak "3.0.1"
+    keccak "^3.0.1"
+    platform "1.3.6"
     protobufjs "6.10.2"
+    qs "6.10.1"
+    scryptsy "2.1.0"
+    tweetnacl "1.0.3"
+    uuid "8.3.2"
 
 "@elrondnetwork/hw-app-elrond@0.3.2":
   version "0.3.2"
@@ -1213,7 +1229,7 @@
     flow-copy-source "^2.0.9"
     flow-typed "^3.2.1"
 
-"@elrondnetwork/transaction-decoder@0.1.0":
+"@elrondnetwork/transaction-decoder@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@elrondnetwork/transaction-decoder/-/transaction-decoder-0.1.0.tgz#a2502a4dc50885242c1b167cc9a6394062ec7423"
   integrity sha512-R9YSiJCAgdlSzTKBy7/KjohFghmUhZIGDqWt6NGXrf33EN24QB15Q0LgHEW7lXsqsDSF5GpRYetsS7V3jYZQOg==
@@ -8574,14 +8590,6 @@ jsprim@^1.2.2:
   dependencies:
     array-includes "^3.1.4"
     object.assign "^4.1.2"
-
-keccak@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/keccak/-/keccak-3.0.1.tgz#ae30a0e94dbe43414f741375cff6d64c8bea0bff"
-  integrity sha512-epq90L9jlFWCW7+pQa6JOnKn2Xgl2mtI664seYR6MHskvI9agt7AnDqmAlp9TqU4/caMYbA08Hi5DMZAl5zdkA==
-  dependencies:
-    node-addon-api "^2.0.0"
-    node-gyp-build "^4.2.0"
 
 keccak@^3.0.1:
   version "3.0.2"

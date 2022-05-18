@@ -4,4 +4,7 @@ export const contractAddress =
 export const pairContractAddress =
   'erd1qqqqqqqqqqqqqpgquu5rsa4ee6l4azz6vdu4hjp8z4p6tt8m0n4suht3dy';
 
+export const crowdFundContractAddress =
+  'erd1qqqqqqqqqqqqqpgqx94mrclhhz8wsj2243ngq0fy8qw6arwgrkksazy2dv';
+
 export const dAppName = 'Rather Labs. Elrond example Dapp';

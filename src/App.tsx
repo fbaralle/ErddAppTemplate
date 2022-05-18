@@ -5,9 +5,10 @@ import Layout from 'components/Layout';
 import PageNotFound from 'pages/PageNotFound';
 import { routeNames } from 'routes';
 import routes from 'routes';
+import CustomUnlockPage from 'pages/UnlockPage';
 import '@elrondnetwork/dapp-core/build/index.css';
 
-const environment = 'devnet';
+const environment = 'testnet';
 
 const {
   TransactionsToastList,
